@@ -12,5 +12,6 @@ const codes = [
 ];
 
 function init() {
-  const body = document.body
+  const body = document.getElementById('body')
+  
 }
