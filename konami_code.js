@@ -13,6 +13,5 @@ const codes = [
 
 function init() {
   const body = document.body
-  body.addEventListener('click', function(e)) {
-    console.log("hi")
+  body.addEventListener('key', function(key))
   }
