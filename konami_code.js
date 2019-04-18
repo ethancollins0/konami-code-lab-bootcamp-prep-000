@@ -12,7 +12,7 @@ const codes = [
 ];
 const main = document.getElementById('main');
 main.addEventListener('key', function(e)) {
-
+  onKeyDownHandler(e)
 }
 function init() {
   let index = 0;
