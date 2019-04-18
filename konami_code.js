@@ -19,6 +19,7 @@ main.addEventListener('key', onKeyDownHandler(e)) {
     index++;
     if (index === codes.length) {
       main.alert("Hurray!");
+      index = 0;
     }
   }
 }
