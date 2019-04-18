@@ -13,4 +13,3 @@ const codes = [
 
 function init() {//document.body.addEventListener('key', function(e)) {
   }
-}
