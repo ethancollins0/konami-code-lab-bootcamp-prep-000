@@ -11,8 +11,6 @@ const codes = [
   "a"
 ];
 
-function init() {
-  //let index = 0;
-  //document.body.addEventListener('key', function(e)) {
+function init() {//document.body.addEventListener('key', function(e)) {
   }
 }
