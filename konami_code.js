@@ -10,7 +10,10 @@ const codes = [
   "b",
   "a"
 ];
-const main = document.
+const main = document.getElementById('main');
+main.addEventListener('key', function(e)) {
+
+}
 function init() {
   let index = 0;
   function onKeyDownHandler(e) {
