@@ -12,7 +12,7 @@ const codes = [
 ];
 
 function init() {
-  const body = document.querySelector('body');
+  const body = document.body
   body.addEventListener('click', function(e)) {
     console.log("hi")
   }
