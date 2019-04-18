@@ -18,7 +18,7 @@ function init() {
     if (e.key === codes[index]) {
       index++;
       if (index = codes.length) {
-        body.alert("Hooray!")
+        alert("Hooray!")
         index = 0;
       }
     } else {
