@@ -12,5 +12,8 @@ const codes = [
 ];
 
 function init() {
-
+  const main = document.getElementById('main');
+  main.addEventListener('key', function(e)) {
+    console.log(e.key)
+  }
 }
