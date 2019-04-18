@@ -13,5 +13,5 @@ const codes = [
 
 function init() {
   const body = document.getElementById('body')
-  
+
 }
