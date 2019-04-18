@@ -12,7 +12,7 @@ const codes = [
 ];
 
 function init() {
-  let index = 0;
+  //let index = 0;
   //document.body.addEventListener('key', function(e)) {
 
   }
