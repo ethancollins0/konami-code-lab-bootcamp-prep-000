@@ -10,7 +10,7 @@ const codes = [
   "b",
   "a"
 ];
-
+const main = document.
 function init() {
   let index = 0;
   function onKeyDownHandler(e) {
