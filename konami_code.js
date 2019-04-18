@@ -13,7 +13,14 @@ const codes = [
 const main = document.getElementById('main');
   let index = 0;
 main.addEventListener('key', onKeyDownHandler(e)) {
-  if
+  const key = e.key;
+
+  if (key === codes[index]) {
+    index++;
+    if (index === codes.length) {
+      main.alert("Hurray!");
+    }
+  }
 }
 function init() {
 
