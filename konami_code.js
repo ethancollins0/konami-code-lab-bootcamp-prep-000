@@ -14,7 +14,7 @@ const codes = [
 function init() {
   const body = document.getElementById('body')
   let index = 0;
-  body.addEventListener('key', function(e)) {
+  document.body.addEventListener('key', function(e)) {
 
   }
 }
