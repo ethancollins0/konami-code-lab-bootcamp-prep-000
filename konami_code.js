@@ -13,7 +13,7 @@ const codes = [
 const main = document.getElementById('main');
   let index = 0;
 main.addEventListener('key', onKeyDownHandler(e)) {
-
+  if
 }
 function init() {
 
