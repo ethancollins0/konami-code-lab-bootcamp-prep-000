@@ -12,5 +12,24 @@ const codes = [
 ];
 
 function init() {
-  // your code here
+  const main = document.getElementById('main');
+  let index = 0;
+
+  main.addEventListener('keydown', function(e)) {
+    onKeyDownHandler(e);
+  }
+  function onKeyDownHandler(e) {
+    const key = e.key;
+
+    if (key === codes[index]) {
+      index++;
+      if (index === codes.length) {
+        main.alert("Hurray!");
+        index = 0;
+      }
+    } else {
+      index = 0;
+    }
+    }
+  }
 }
