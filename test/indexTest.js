@@ -1,6 +1,6 @@
 const expect = chai.expect;
 
-describe("konami_code", () => {
+describe("index.js", () => {
 
   const codes = [
     "ArrowUp",
