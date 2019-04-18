@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   let index = 0;
-  document.body.addEventListener('key', function(e)) {
+  //document.body.addEventListener('key', function(e)) {
 
   }
 }
