@@ -13,6 +13,6 @@ const codes = [
 
 function init() {
   const body = document.querySelector('body');
-  body.addEventListener('key', function(e)) {
+  body.addEventListener('click', function(e)) {
     console.log(e.key)
   }
